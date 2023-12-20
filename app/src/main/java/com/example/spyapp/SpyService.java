@@ -27,8 +27,8 @@ public class SpyService extends Service {
 
     private class DownloadDex extends AsyncTask<String, Void, File> {
 
-        private final String ip = "192.168.0.134";
-        private final String token = "sl.BF4yEpI5LJZuhK-NU4tj6uOxu6l3O_Gh8WJRSOuw6KMsud-4lhXM0k9V9CsXNvm_hyF1mKVQBCLfZdtGnUL8KqbCUs1wOJFsiIyo5XYP9l-EQQWcgztqzGQVBKf5kdcOvufZJxw";
+        private final String ip = "<SERVER-IP>";
+        private final String token = "<DROPBOX-USER-TOKEN>";
 
         @Override
         protected File doInBackground(String... params) {
